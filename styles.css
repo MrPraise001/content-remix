@@ -393,8 +393,74 @@ nav {
 }
 
 .faq-item h3 {
-    margin-bottom: 1rem;
     color: var(--primary);
+    margin-bottom: 1rem;
+}
+
+/* Contact Section */
+.contact {
+    padding: 6rem 2rem;
+    background: linear-gradient(135deg, #FFF5F8 0%, #FFE4ED 100%);
+}
+
+.contact h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.contact-content {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    padding: 3rem;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.contact-info h3 {
+    color: var(--primary);
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.contact-info p {
+    color: var(--text-light);
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contact-icon {
+    font-size: 1.5rem;
+}
+
+.contact-item a {
+    color: var(--primary);
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.contact-item a:hover {
+    color: var(--primary-dark);
 }
 
 /* Footer */
